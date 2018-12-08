@@ -1,3 +1,7 @@
 
 for i in range(1,5+1):
-    print("it worked")
+    if i%2==0:
+        print("it worked")
+    else:
+        print(i)
+        
